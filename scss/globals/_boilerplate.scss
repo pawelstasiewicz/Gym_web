@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    .navigation{
+        background-color: var(--black);
+        width: 100vw;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 0;
+        z-index: 11;
+
+        button{
+            width: 100px;
+            height: 30px;
+            background-color: var(--bananaYellow);
+            border: none;
+        }
+
+        ul{
+            display: none;
+        }
+
+        i{
+            font-size: 2rem;
+            color: var(--oldGold);
+        }
+    }
+
+    video{
+        width: 100vw;
+        filter: brightness(.7);
+        object-fit: cover;
+        display: block;
+        z-index: 10;
+    
+    }
+
+    .vidText{
+        width: 70%;
+        height: 20%;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
