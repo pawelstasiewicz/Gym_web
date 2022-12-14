@@ -45,7 +45,6 @@
             top: 30%;
         }
     }
-
 }
 
 @media only screen and (min-width: 1024px){
@@ -59,6 +58,21 @@
 
             h2{
                 font-size: 3.3rem;
+            }
+        }
+    }
+
+    main{
+        .type{
+            .type_grid{
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: 1fr;
+
+                .box{
+                    img{
+                        max-width: 20vw;
+                    }
+                }
             }
         }
     }
