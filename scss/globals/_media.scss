@@ -1,117 +1,176 @@
-@media only screen and (min-width:568px){
-    header{
-        .vidText{
-            top: 35%;
+@media only screen and (min-width: 568px) {
+	header {
+		.vidText {
+			top: 35%;
 
-            h1{
-                font-size: 2rem;
-            }
+			h1 {
+				font-size: 2rem;
+			}
 
-            h2{
-                font-size: 2.3rem;
-            }
+			h2 {
+				font-size: 2.3rem;
+			}
 
-            .vidTextButton{
-                margin: 40px 0;
+			.vidTextButton {
+				margin: 40px 0;
 
-                button{
-                    width: 150px;
-                }
-            }
-        }
-    }
-    main{
-        .line{
-            height: 20vh;
+				button {
+					width: 150px;
+				}
+			}
+		}
+	}
+	main {
+		.line {
+			height: 20vh;
 
-            i{
-                font-size: 2.5rem;
-            }
-        }
-    }
+			i {
+				font-size: 2.5rem;
+			}
+		}
+
+		.gym_area {
+			width: 100vw;
+
+			.gym_area_img {
+				display: flex;
+				margin: 0 20px;
+				img {
+					width: 30vw;
+					height: auto;
+				}
+			}
+
+			.gym_area_btn {
+				display: flex;
+
+				.first_btn:nth-child(1) {
+					width: 150px;
+					left: 19%;
+					top: 80%;
+				}
+
+				.first_btn:nth-child(2) {
+					width: 150px;
+					top: 80%;
+				}
+
+				.first_btn:nth-child(3) {
+					width: 150px;
+					left: 81%;
+					top: 80%;
+				}
+			}
+		}
+	}
 }
 
-@media only screen and (min-width: 768px){
-    
-    header{
-        .navigation{
-            ul{
-                display: flex;
-                list-style: none;
-                
-                li{
-                    padding: 10px;
-                    
-                    a{
-                        color: var(--lSilver);
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
+@media only screen and (min-width: 768px) {
+	header {
+		.navigation {
+			ul {
+				display: flex;
+				list-style: none;
 
-        .vidText{
-            top: 30%;
-        }
-    }
+				li {
+					padding: 10px;
 
-    main{
-        .line{
+					a {
+						color: var(--lSilver);
+						text-decoration: none;
+					}
+				}
+			}
+		}
 
-            i{
-                font-size: 2.8rem;
-            }
-        }
-    }
+		.vidText {
+			top: 30%;
+		}
+	}
+
+	main {
+		.line {
+			i {
+				font-size: 2.8rem;
+			}
+		}
+
+		.gym_area {
+			.gym_area_btn {
+				.first_btn:nth-child(1) {
+					left: 18%;
+				}
+
+				.first_btn:nth-child(3) {
+					left: 82%;
+				}
+			}
+		}
+	}
 }
 
-@media only screen and (min-width: 1024px){
-    header{
-        .vidText{
-            top: 50%;
+@media only screen and (min-width: 1024px) {
+	header {
+		.vidText {
+			top: 50%;
 
-            h1{
-                font-size: 3rem;
-            }
+			h1 {
+				font-size: 3rem;
+			}
 
-            h2{
-                font-size: 3.3rem;
-            }
-        }
-    }
+			h2 {
+				font-size: 3.3rem;
+			}
+		}
+	}
 
-    main{
-        .type{
-            .type_grid{
-                grid-template-columns: repeat(4, 1fr);
-                grid-template-rows: 1fr;
+	main {
+		.type {
+			.type_grid {
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: 1fr;
 
-                .box{
-                    img{
-                        max-width: 20vw;
-                    }
-                }
-            }
-        }
-    }
+				.box {
+					img {
+						max-width: 20vw;
+					}
+				}
+			}
+		}
 
-    main{
-        .line{
-            height: 20vh;
+        .line {
+			height: 20vh;
 
-            i{
-                font-size: 4rem;
-            }
-        }
+			i {
+				font-size: 4rem;
+			}
+		}
 
-        .text{
-            h2{
-                font-size: 2rem;
-            }
+		.text {
+			h2 {
+				font-size: 2rem;
+			}
 
-            p{
-                font-size: 1.8rem;
-            }
-        }
-    }
+			p {
+				font-size: 1.8rem;
+			}
+		}
+
+		.gym_area {
+			.gym_area_btn {
+
+				.first_btn:nth-child(1) {
+					top: 85%;
+				}
+
+				.first_btn:nth-child(2) {
+					top: 85%;
+				}
+
+				.first_btn:nth-child(3) {
+					top: 85%;
+				}
+			}
+		}
+	}
 }

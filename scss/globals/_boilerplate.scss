@@ -135,44 +135,89 @@ main {
 		}
 	}
 
-	.line{
+	.line {
 		width: 100vw;
 		height: 10vh;
 		background-color: var(--bananaYellow);
 		position: relative;
-		
-		i{
+
+		i {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			font-size: 2rem;
-			text-shadow: 
-			1px 0px 4px var(--black),
-			-1px 0px 4px var(--black),
-			0px 1px 4px var(--black),
-			0px -1px 4px var(--black);
+			text-shadow: 1px 0px 4px var(--black), -1px 0px 4px var(--black),
+				0px 1px 4px var(--black), 0px -1px 4px var(--black);
 			color: var(--oldGold);
 			cursor: pointer;
 		}
 	}
 
-	.text{
+	.text {
 		color: var(--lSilver);
 		padding: 40px 20px;
 		text-align: center;
 
-		h2{
+		h2 {
 			font-size: 1.2rem;
 			margin: 10px;
 		}
 
-		.text_space{
+		.text_space {
 			margin: 10px;
 			padding: 10px;
 
-			span{
+			span {
 				color: var(--oldGold);
+			}
+		}
+	}
+
+	.gym_area {
+		background-color: var(--lSilver);
+		position: relative;
+
+		h2 {
+			text-align: center;
+			padding: 30px 0;
+			font-size: 1.2rem;
+		}
+
+		.gym_area_img {
+			text-align: center;
+			margin: 0 auto;
+
+			img {
+				margin: 30px auto;
+				width: 70vw;
+				height: auto;
+				filter: brightness(.5);
+			}
+		}
+
+		.gym_area_btn{
+			text-align: center;
+			
+			button{
+				position: absolute;
+				padding: 10px 30px;
+				border: none;
+				background-color: var(--oldGold);
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.first_btn:nth-child(1){
+				top: 30%;
+			}
+
+			.first_btn:nth-child(2){
+				top: 60%;
+			}
+
+			.first_btn:nth-child(3){
+				top: 90%;
 			}
 		}
 	}
