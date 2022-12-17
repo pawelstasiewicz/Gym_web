@@ -18,23 +18,6 @@ header {
 		justify-content: space-around;
 		top: 0;
 		z-index: 11;
-
-		button {
-			width: 100px;
-			height: 30px;
-			background-color: var(--bananaYellow);
-			border: none;
-			cursor: pointer;
-		}
-
-		ul {
-			display: none;
-		}
-
-		i {
-			font-size: 2rem;
-			color: var(--oldGold);
-		}
 	}
 
 	video {
@@ -59,13 +42,6 @@ main {
 	.type {
 		background-color: var(--black);
 
-		h2 {
-			text-align: center;
-			padding: 10px;
-			margin: 10px;
-			color: var(--lSilver);
-		}
-
 		.type_grid {
 			width: 100vw;
 			display: grid;
@@ -83,10 +59,6 @@ main {
 					filter: brightness(0.5);
 				}
 
-				p {
-					color: aliceblue;
-					text-align: center;
-				}
 
 				.rank1 {
 					max-width: 40vw;
@@ -141,17 +113,6 @@ main {
 		background-color: var(--bananaYellow);
 		position: relative;
 
-		i {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			font-size: 2rem;
-			text-shadow: 1px 0px 4px var(--black), -1px 0px 4px var(--black),
-				0px 1px 4px var(--black), 0px -1px 4px var(--black);
-			color: var(--oldGold);
-			cursor: pointer;
-		}
 	}
 
 	.text {
@@ -159,30 +120,11 @@ main {
 		padding: 40px 20px;
 		text-align: center;
 
-		h2 {
-			font-size: 1.2rem;
-			margin: 10px;
-		}
-
-		.text_space {
-			margin: 10px;
-			padding: 10px;
-
-			span {
-				color: var(--oldGold);
-			}
-		}
 	}
 
 	.gym_area {
 		background-color: var(--lSilver);
 		position: relative;
-
-		h2 {
-			text-align: center;
-			padding: 30px 0;
-			font-size: 1.2rem;
-		}
 
 		.gym_area_img {
 			text-align: center;
@@ -217,6 +159,42 @@ main {
 			}
 
 			.first_btn:nth-child(3){
+				top: 90%;
+			}
+		}
+	}
+
+	.gym_info{
+		position: relative;
+
+		.gym_info_img{
+			margin: 0 auto;
+			text-align: center;
+
+			img{
+				width: 70vw;
+				height: auto;
+				margin: 30px auto;
+				filter: brightness(.7);
+			}
+		}
+
+		.gym_info_btn{
+			text-align: center;
+
+			button{
+				position: absolute;
+				padding: 10px 30px;
+				border: none;
+				background-color: var(--oldGold);
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.second_btn:nth-child(1){
+				top: 45%;
+			}
+			
+			.second_btn:nth-child(2){
 				top: 90%;
 			}
 		}

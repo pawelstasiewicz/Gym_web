@@ -1,4 +1,24 @@
 header{
+    .navigation{
+        button {
+			width: 100px;
+			height: 30px;
+			background-color: var(--bananaYellow);
+			border: none;
+			cursor: pointer;
+		}
+
+
+		ul {
+			display: none;
+		}
+
+		i {
+			font-size: 2rem;
+			color: var(--oldGold);
+		}
+    }
+
     .vidText{
         text-align: center;
         padding: 15px;
@@ -35,5 +55,78 @@ header{
                 color: var(--black);
             }
         }
+    }
+}
+
+main{
+    .type{
+        h2 {
+			text-align: center;
+			padding: 10px;
+			margin: 10px;
+			color: var(--lSilver);
+		}   
+
+        .type_grid{
+            
+            .box{
+
+                p {
+					color: aliceblue;
+					text-align: center;
+				}
+            }
+        }
+    }
+
+    .line{
+
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2rem;
+            text-shadow: 1px 0px 4px var(--black), -1px 0px 4px var(--black),
+            0px 1px 4px var(--black), 0px -1px 4px var(--black);
+            color: var(--oldGold);
+            cursor: pointer;            
+        }
+    }
+
+    .text{
+        
+        h2 {
+			font-size: 1.2rem;
+			margin: 10px;
+		}
+
+        .text_space {
+			margin: 10px;
+			padding: 10px;
+
+			span {
+				color: var(--oldGold);
+			}
+		}
+    }
+
+    .gym_area{
+
+        h2 {
+			text-align: center;
+			padding: 30px 0;
+			font-size: 1.2rem;
+		}
+    }
+
+    .gym_info{
+
+        h2{
+			margin: 30px 0;
+			text-align: center;
+			color: var(--lSilver);
+		}
+        
     }
 }

@@ -62,6 +62,34 @@
 				}
 			}
 		}
+
+		.gym_info{
+			width: 100vw;
+
+			.gym_info_img{
+				display: flex;
+				margin: 0 20px;
+
+				img{
+					width: 30vw;
+					height: auto;
+				}
+			}
+
+			.gym_info_btn{
+				display: flex;
+				
+				.second_btn:nth-child(1){
+					left: 27%;
+					top: 80%;
+				}
+
+				.second_btn:nth-child(2){
+					left: 74%;
+					top: 80%;
+				}
+			}
+		}
 	}
 }
 
@@ -103,6 +131,26 @@
 
 				.first_btn:nth-child(3) {
 					left: 82%;
+				}
+			}
+		}
+
+		.gym_info{
+
+			.gym_info_btn{
+				
+				.second_btn:nth-child(1){
+					left: 27%;
+					top: 85%;
+					font-size: 1.3rem;
+					padding: 10px 40px;
+				}
+
+				.second_btn:nth-child(2){
+					left: 75%;
+					top: 85%;
+					font-size: 1.3rem;
+					padding: 10px 40px;
 				}
 			}
 		}
