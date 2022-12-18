@@ -129,4 +129,16 @@ main{
 		}
         
     }
+
+    .gym_rehabilitation{
+        text-align: center;
+
+        .gym_reh_text_1, .gym_reh_text_2{
+            
+            h2{
+                color: var(--oldGold);
+                padding: 5px;
+            }
+        }
+    }
 }

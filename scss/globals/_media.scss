@@ -90,6 +90,42 @@
 				}
 			}
 		}
+
+		.gym_rehabilitation{
+			
+			.gym_rehabilitation_img{
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				margin: 20px;
+
+				.reh_img:nth-child(1){
+					width: 30vw;
+					height: auto;
+					margin: 10px;
+				}
+
+				.reh_img:nth-child(2){
+					width: 50vw;
+					height: auto;
+					margin: 10px;
+				}
+			}
+
+			.gym_rehabilitation_text{
+				
+				.gym_reh_text_1{
+					left: 23%;
+					top: 75%;
+				}
+
+				.gym_reh_text_2{
+					left: 68%;
+					top: 75%;
+				}
+			}
+		}
+		
 	}
 }
 

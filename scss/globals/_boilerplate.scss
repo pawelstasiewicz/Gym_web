@@ -199,4 +199,50 @@ main {
 			}
 		}
 	}
+
+	.gym_rehabilitation{
+		background-color: var(--lSilver);
+		position: relative;
+		margin: 50px 0 100px 0;
+
+		h2{
+			padding: 30px;
+		}
+
+		.gym_rehabilitation_img{
+			
+			margin: 0 auto;
+			
+			.reh_img:nth-child(2){
+				width: 70vw;
+				height: auto;
+				margin: 20px 0;
+				filter: brightness(.8);
+			}
+
+			.reh_img:nth-child(1){
+				width: 60vw;
+				height: auto;
+				margin: 20px 0;
+				filter: brightness(.8);
+			}
+		}
+
+		.gym_rehabilitation_text{
+			
+			.gym_reh_text_1{
+				position: absolute;
+				top: 55%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.gym_reh_text_2{
+				position: absolute;
+				top: 88%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
 }
