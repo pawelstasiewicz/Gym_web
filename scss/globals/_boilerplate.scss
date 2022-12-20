@@ -59,7 +59,6 @@ main {
 					filter: brightness(0.5);
 				}
 
-
 				.rank1 {
 					max-width: 40vw;
 					position: relative;
@@ -112,14 +111,12 @@ main {
 		height: 10vh;
 		background-color: var(--bananaYellow);
 		position: relative;
-
 	}
 
 	.text {
 		color: var(--lSilver);
 		padding: 40px 20px;
 		text-align: center;
-
 	}
 
 	.gym_area {
@@ -134,14 +131,14 @@ main {
 				margin: 30px auto;
 				width: 70vw;
 				height: auto;
-				filter: brightness(.5);
+				filter: brightness(0.5);
 			}
 		}
 
-		.gym_area_btn{
+		.gym_area_btn {
 			text-align: center;
-			
-			button{
+
+			button {
 				position: absolute;
 				padding: 10px 30px;
 				border: none;
@@ -150,39 +147,39 @@ main {
 				transform: translate(-50%, -50%);
 			}
 
-			.first_btn:nth-child(1){
+			.first_btn:nth-child(1) {
 				top: 30%;
 			}
 
-			.first_btn:nth-child(2){
+			.first_btn:nth-child(2) {
 				top: 60%;
 			}
 
-			.first_btn:nth-child(3){
+			.first_btn:nth-child(3) {
 				top: 90%;
 			}
 		}
 	}
 
-	.gym_info{
+	.gym_info {
 		position: relative;
 
-		.gym_info_img{
+		.gym_info_img {
 			margin: 0 auto;
 			text-align: center;
 
-			img{
+			img {
 				width: 70vw;
 				height: auto;
 				margin: 30px auto;
-				filter: brightness(.7);
+				filter: brightness(0.7);
 			}
 		}
 
-		.gym_info_btn{
+		.gym_info_btn {
 			text-align: center;
 
-			button{
+			button {
 				position: absolute;
 				padding: 10px 30px;
 				border: none;
@@ -190,59 +187,70 @@ main {
 				left: 50%;
 				transform: translate(-50%, -50%);
 			}
-			.second_btn:nth-child(1){
+			.second_btn:nth-child(1) {
 				top: 45%;
 			}
-			
-			.second_btn:nth-child(2){
+
+			.second_btn:nth-child(2) {
 				top: 90%;
 			}
 		}
 	}
 
-	.gym_rehabilitation{
+	.gym_rehabilitation {
 		background-color: var(--lSilver);
 		position: relative;
-		margin: 50px 0 100px 0;
+		padding: 50px 0;
 
-		h2{
+		h2 {
 			padding: 30px;
 		}
 
-		.gym_rehabilitation_img{
-			
+		.gym_rehabilitation_img {
 			margin: 0 auto;
-			
-			.reh_img:nth-child(2){
+
+			.reh_img:nth-child(2) {
 				width: 70vw;
 				height: auto;
 				margin: 20px 0;
-				filter: brightness(.8);
+				filter: brightness(0.8);
 			}
 
-			.reh_img:nth-child(1){
-				width: 60vw;
+			.reh_img:nth-child(1) {
+				width: 70vw;
 				height: auto;
 				margin: 20px 0;
-				filter: brightness(.8);
+				filter: brightness(0.8);
 			}
 		}
 
-		.gym_rehabilitation_text{
-			
-			.gym_reh_text_1{
+		.gym_rehabilitation_text {
+			.gym_reh_text_1 {
 				position: absolute;
 				top: 55%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 			}
 
-			.gym_reh_text_2{
+			.gym_reh_text_2 {
 				position: absolute;
-				top: 88%;
+				top: 85%;
 				left: 50%;
 				transform: translate(-50%, -50%);
 			}
+		}
+	}
+
+	.gym_app {
+		text-align: center;
+		width: 100vw;
+		display: block;
+		align-items: center;
+
+		img {
+			margin: 50px 0 0 0;
+			width: 70vw;
+			height: auto;
 		}
 	}
 }

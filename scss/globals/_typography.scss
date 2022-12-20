@@ -1,13 +1,12 @@
-header{
-    .navigation{
-        button {
+header {
+	.navigation {
+		button {
 			width: 100px;
 			height: 30px;
 			background-color: var(--bananaYellow);
 			border: none;
 			cursor: pointer;
 		}
-
 
 		ul {
 			display: none;
@@ -17,91 +16,87 @@ header{
 			font-size: 2rem;
 			color: var(--oldGold);
 		}
-    }
+	}
 
-    .vidText{
-        text-align: center;
-        padding: 15px;
-        h1{
-            color: var(--oldGold);
-            font-size: 1.2rem;
-        }
+	.vidText {
+		text-align: center;
+		padding: 15px;
+		h1 {
+			color: var(--oldGold);
+			font-size: 1.2rem;
+		}
 
-        h2{
-            color: var(--lSilver);
-            font-size: 1.5rem;
-        }
-        
-        .vidTextButton{
-            margin: 10px 0;
-            width: 100%;
+		h2 {
+			color: var(--lSilver);
+			font-size: 1.5rem;
+		}
 
-            button{
-                width: 75px;
-                margin: 0 10px;
-                padding: 5px 10px;
-                cursor: pointer;
-            }
+		.vidTextButton {
+			margin: 10px 0;
+			width: 100%;
 
-            .b_1{
-                background-color: transparent;
-                border: 2px solid var(--oldGold);
-                color: var(--lSilver); 
-            }
+			button {
+				width: 75px;
+				margin: 0 10px;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
 
-            .b_2{
-                border: 2px solid var(--oldGold);
-                background-color: var(--oldGold);
-                color: var(--black);
-            }
-        }
-    }
+			.b_1 {
+				background-color: transparent;
+				border: 2px solid var(--oldGold);
+				color: var(--lSilver);
+			}
+
+			.b_2 {
+				border: 2px solid var(--oldGold);
+				background-color: var(--oldGold);
+				color: var(--black);
+			}
+		}
+	}
 }
 
-main{
-    .type{
-        h2 {
+main {
+	.type {
+		h2 {
 			text-align: center;
 			padding: 10px;
 			margin: 10px;
 			color: var(--lSilver);
-		}   
+		}
 
-        .type_grid{
-            
-            .box{
-
-                p {
+		.type_grid {
+			.box {
+				p {
 					color: aliceblue;
 					text-align: center;
 				}
-            }
-        }
-    }
+			}
+		}
+	}
 
-    .line{
+	.line {
+		i {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 2rem;
+			text-shadow: 1px 0px 4px var(--black), -1px 0px 4px var(--black),
+				0px 1px 4px var(--black), 0px -1px 4px var(--black);
+			color: var(--oldGold);
+			cursor: pointer;
+		}
+	}
 
-        i{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 2rem;
-            text-shadow: 1px 0px 4px var(--black), -1px 0px 4px var(--black),
-            0px 1px 4px var(--black), 0px -1px 4px var(--black);
-            color: var(--oldGold);
-            cursor: pointer;            
-        }
-    }
-
-    .text{
-        
-        h2 {
+	.text {
+		h2 {
 			font-size: 1.2rem;
 			margin: 10px;
 		}
 
-        .text_space {
+		.text_space {
 			margin: 10px;
 			padding: 10px;
 
@@ -109,36 +104,51 @@ main{
 				color: var(--oldGold);
 			}
 		}
-    }
+	}
 
-    .gym_area{
-
-        h2 {
+	.gym_area {
+		h2 {
 			text-align: center;
 			padding: 30px 0;
 			font-size: 1.2rem;
 		}
-    }
+	}
 
-    .gym_info{
-
-        h2{
+	.gym_info {
+		h2 {
 			margin: 30px 0;
 			text-align: center;
 			color: var(--lSilver);
 		}
-        
-    }
+	}
 
-    .gym_rehabilitation{
-        text-align: center;
+	.gym_rehabilitation {
+		text-align: center;
 
-        .gym_reh_text_1, .gym_reh_text_2{
-            
-            h2{
-                color: var(--oldGold);
-                padding: 5px;
-            }
-        }
-    }
+		.gym_reh_text_1,
+		.gym_reh_text_2 {
+			h2 {
+				color: var(--oldGold);
+				padding: 5px;
+			}
+		}
+	}
+
+	.gym_app {
+		.gym_app_text {
+			color: var(--lSilver);
+
+			h1,
+			p {
+				margin: 30px;
+			}
+
+			.gym_app_icons {
+				i {
+					padding: 20px;
+					font-size: 4rem;
+				}
+			}
+		}
+	}
 }

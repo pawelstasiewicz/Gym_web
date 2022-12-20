@@ -63,69 +63,82 @@
 			}
 		}
 
-		.gym_info{
+		.gym_info {
 			width: 100vw;
 
-			.gym_info_img{
+			.gym_info_img {
 				display: flex;
 				margin: 0 20px;
 
-				img{
+				img {
 					width: 30vw;
 					height: auto;
 				}
 			}
 
-			.gym_info_btn{
+			.gym_info_btn {
 				display: flex;
-				
-				.second_btn:nth-child(1){
+
+				.second_btn:nth-child(1) {
 					left: 27%;
 					top: 80%;
 				}
 
-				.second_btn:nth-child(2){
+				.second_btn:nth-child(2) {
 					left: 74%;
 					top: 80%;
 				}
 			}
 		}
 
-		.gym_rehabilitation{
-			
-			.gym_rehabilitation_img{
+		.gym_rehabilitation {
+			.gym_rehabilitation_img {
 				display: flex;
 				justify-content: space-evenly;
 				align-items: center;
 				margin: 20px;
 
-				.reh_img:nth-child(1){
-					width: 30vw;
+				.reh_img:nth-child(1) {
+					width: 22vw;
 					height: auto;
 					margin: 10px;
 				}
 
-				.reh_img:nth-child(2){
+				.reh_img:nth-child(2) {
 					width: 50vw;
 					height: auto;
 					margin: 10px;
 				}
 			}
 
-			.gym_rehabilitation_text{
-				
-				.gym_reh_text_1{
-					left: 23%;
-					top: 75%;
+			.gym_rehabilitation_text {
+				.gym_reh_text_1 {
+					left: 21%;
+					top: 72%;
 				}
 
-				.gym_reh_text_2{
-					left: 68%;
-					top: 75%;
+				.gym_reh_text_2 {
+					left: 65%;
+					top: 72%;
 				}
 			}
 		}
-		
+
+		.gym_app {
+			display: flex;
+			padding: 30px;
+			img {
+				width: 30vw;
+				margin: 40px;
+			}
+
+			.gym_app_text {
+				h1,
+				p {
+					margin: 0;
+				}
+			}
+		}
 	}
 }
 
@@ -171,18 +184,16 @@
 			}
 		}
 
-		.gym_info{
-
-			.gym_info_btn{
-				
-				.second_btn:nth-child(1){
+		.gym_info {
+			.gym_info_btn {
+				.second_btn:nth-child(1) {
 					left: 27%;
 					top: 85%;
 					font-size: 1.3rem;
 					padding: 10px 40px;
 				}
 
-				.second_btn:nth-child(2){
+				.second_btn:nth-child(2) {
 					left: 75%;
 					top: 85%;
 					font-size: 1.3rem;
@@ -222,7 +233,7 @@
 			}
 		}
 
-        .line {
+		.line {
 			height: 20vh;
 
 			i {
@@ -242,7 +253,6 @@
 
 		.gym_area {
 			.gym_area_btn {
-
 				.first_btn:nth-child(1) {
 					top: 85%;
 				}
@@ -253,6 +263,25 @@
 
 				.first_btn:nth-child(3) {
 					top: 85%;
+				}
+			}
+		}
+
+		.gym_rehabilitation {
+			width: 100vw;
+			.gym_rehabilitation_text {
+				.gym_reh_text_1,
+				.gym_reh_text_2 {
+					font-size: 1.3rem;
+				}
+			}
+		}
+
+		.gym_app {
+			.gym_app_text {
+				h1,
+				p {
+					padding: 20px;
 				}
 			}
 		}
