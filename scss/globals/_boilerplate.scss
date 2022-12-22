@@ -253,4 +253,39 @@ main {
 			height: auto;
 		}
 	}
+
+	.gym_bottom_area {
+		background-color: #252525;
+		text-align: center;
+		position: relative;
+
+		img {
+			width: 70vw;
+			height: auto;
+			margin: 15px;
+		}
+
+		.gym_bottom_area_button {
+			.gbab {
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				padding: 10px 30px;
+				border: none;
+				background-color: var(--oldGold);
+			}
+
+			.gbab:nth-child(1) {
+				top: 36%;
+			}
+
+			.gbab:nth-child(2) {
+				top: 73%;
+			}
+
+			.gbab:nth-child(3) {
+				top: 93%;
+			}
+		}
+	}
 }
